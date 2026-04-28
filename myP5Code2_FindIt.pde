@@ -24,6 +24,30 @@ draw = function(){
    }
 
   display();
+// THE LINE THE LINES THE LINES
+//for loop(start; how long; change)
+for (var x=0; x<400; x+=20){
+  line(0, x, 400, x)
+}
+
+
+// NEW EMOJIS ON THE BLOCK
+// while loop
+var x = 0; 
+while (x < 400){
+  text ("🎀", x, 340);
+  x +=20;
+}
+
+
+// FUN FUN FUN 
+//array
+var myEMOJIS = ["🎨" , "👙"]
+
+fill(255, 0, 0)
+text(myEMOJIS[0], 10, 30);
+text(myEMOJIS[1], 10, 80);
+
 }
 
 
